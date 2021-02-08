@@ -10,7 +10,7 @@ The application provides server allowing to measure pollution levels from differ
 * Change comments from polish to english in polution module
 * fix streams usage in pollution_data_stream module
 * build hierarchy in src dir - group utils and training modules
-* fix testing so the pass with simple `rebar3 eunit` command
+* fix testing so they pass with simple `rebar3 eunit` command
 
 
 Build
