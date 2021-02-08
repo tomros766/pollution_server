@@ -4,7 +4,8 @@ Pollution server
 An OTP application developed as a continuous lab classes on Erlang and Elixir progeamming course.
 
 The application provides server allowing to measure pollution levels from different measuring stations. 
-###TODO
+
+### TODO
 
 * Change comments from polish to english in polution module
 * fix streams usage in pollution_data_stream module
