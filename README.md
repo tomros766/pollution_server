@@ -26,8 +26,8 @@ The stacktrace print during tests is caused by an intentional server crash
     $ rebar3 test
 
 
-##Modules description
-###Pollution
+## Modules description
+### Pollution
 The module contains structure of data - records `station` and `measurement`.
 A single measurement station is represented as a map(**station** -> map(**measurement** -> value)).
 
@@ -41,15 +41,15 @@ The module contains also number of functions providing operations available on a
 * getting a maximum value of given type and a station that has measured it
 * getting a mean of measurements of given type on a given rectangular area
 
-###PollutionServer
+### PollutionServer
 A client wrapper around previous module - creates more friendly API and guarantees basic app protection
 **Not used anymore - replaced by PollutionGenServer**
 
-###PollutionGenServer
+### PollutionGenServer
 From the client perspective basicly identical funcionality as PollutionServer, but it implements gen_server behaviour 
 and because of that it delivers better application protection.
 
-###PollutionData and PollutionDataStream
+### PollutionData and PollutionDataStream
 Purely training modules - they import data from pollution.csv file, perform operations on it and measure the time of execution
 The Stream solution needs fixing.
 
